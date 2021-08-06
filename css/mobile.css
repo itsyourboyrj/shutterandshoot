@@ -1,0 +1,43 @@
+@media screen and (max-width:1200px) {
+    .nav {
+        flex-direction: column;
+        margin-bottom: 10px;
+        font-size: xx-small;
+    }
+    .class {
+        flex-direction: column;
+        text-align: center;
+    }
+    .class {
+        flex-direction: column;
+        font-size: 14px;
+    }
+    .rj {
+        display: none;
+    }
+    .rj2{
+        flex-direction: column;
+    }
+    .rj2-img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    .rj2 img {
+        max-width: 100%;
+        height: auto;
+        padding: 0px;
+        margin-left: 120px;
+    }
+    .rj3 h2{
+        font-size: x-small;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rj3 p {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

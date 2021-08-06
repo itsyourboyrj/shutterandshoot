@@ -1,0 +1,57 @@
+body{
+    background: url('/img/img-portfolio.png');
+    background-repeat: no-repeat;
+    /* background-position: right top; */
+    /* background-attachment: fixed; */
+    background-size: 1350px 1000px;
+    
+
+}
+.btn{
+    height: 50vw;
+    display: list-item;
+    padding:auto;
+   
+   
+}
+.btn h1{
+    text-align: center;
+    font: normal 50px 'Cookie', cursive;
+    padding-top: 100px;
+    color: rgb(245, 214, 175);
+    
+}
+.btn h3{
+    text-align: center;
+    padding-top: 0;
+    color: ivory;
+    font-family: 'Rokkitt', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ 
+/* .logo{
+    text-align: center;
+} */
+.button{
+    border: none;
+    font-family: 'Rokkitt', serif;
+    outline: 0;
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: rgba(180, 22, 22, 0);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+.button a {
+    text-decoration: none;
+    color: rgba(224, 169, 51, 0.89);
+}
+.button:hover{
+    background-color: rgba(211, 12, 12, 0);
+    color: black;
+    /* transition: ease-in-out; */
+    transform: scale(2);
+    text-decoration: none;
+}
