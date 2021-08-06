@@ -10,13 +10,16 @@
 }
 
 .rj2 span h4 {
-  border: 1px double white;
-  padding: 5px;
-  border-radius: 10px;
+  font-family: "Style Script", cursive;
+  font-size: 30px;
+  font-weight: lighter;
+  color: rgb(247, 226, 226);
+  padding: auto;
   text-align: center;
-  color: thistle;
-  margin-left: 200px;
-  margin-right: 200px;
+  border: 2px solid whitesmoke;
+  width: auto;
+  border-radius: 50px;
+  margin: auto;
 }
 .rj2 img {
   height: 20em;
@@ -39,19 +42,26 @@
 
 .rj3 {
   height: 300px;
-  padding: 2px;
+  padding: auto;
   background-color: rgba(216, 191, 216, 0.123);
   display: ruby-base;
+  border: 2px solid rgb(241, 168, 168);
 }
 .rj3 span h2 {
-  margin-left: 200px;
-  margin-right: 200px;
-  border: 2px solid rgba(255, 255, 255, 0.842);
-  border-radius: 20px;
+  font-family: "Style Script", cursive;
+  font-size: 30px;
+  font-weight: lighter;
+  color: rgb(247, 226, 226);
+  /* padding: auto; */
   text-align: center;
-  background-color: rgba(229, 192, 192, 0.171);
+  border: 2px solid rgb(250, 213, 213);
+  width: auto;
+  /* border-radius: px; */
+  margin: auto;
 }
+
 .rj3 img {
+  padding: 50px;
   height: 12em;
   width: 12em;
   border-radius: 50%;
@@ -71,13 +81,12 @@
 .rj3 a:hover {
   color: rgb(211, 161, 161);
 }
-.rj3 h4 {
+.rj3 span h4 {
   text-align: center;
   border: 2px solid whitesmoke;
   width: 150px;
   border-radius: 50px;
-  margin-left: 600px;
-  margin-right: 600px;
+  margin: auto;
 }
 .rj4 {
   height: 150px;
@@ -110,7 +119,6 @@ body {
   padding: 0vh 4vw;
 }
 .nav_link {
-  color: inherit;
   text-decoration: none;
   margin-right: 50px;
   position: relative;
